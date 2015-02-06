@@ -1,1 +1,5 @@
-console.log('index running');
+'use strict';
+
+var configuration = require('config');
+
+console.log(configuration);
